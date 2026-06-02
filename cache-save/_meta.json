@@ -1,0 +1,11 @@
+﻿{
+  "name": "cache-save",
+  "version": "1.3.0",
+  "description": "缂撳瓨淇濆瓨鎶€鑳斤細涓冩缁堟瀬楠岃瘉鏈哄埗锛堢粡鐞嗘墦鍗?鏃堕棿鏂眰鎵弿+鍥炬爣姝诲懡浠?寰幆淇锛?,
+  "author": "蹇嗘ⅵ AI",
+  "created": "2026-04-24",
+  "updated": "2026-05-25T21:00:00",
+  "tags": ["cache", "save", "v1.3.0", "manager-entry", "anti-gap"],
+  "trigger": "杩愯 python skills/cache-save/skill.py 鎴栧墠绔寜閽?,
+  "dependencies": ["skills/update_stats.py"]
+}
