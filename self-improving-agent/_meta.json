@@ -1,0 +1,9 @@
+﻿{
+  "name": "self-improving-agent",
+  "version": "1.3.0",
+  "description": "鑷垜鏀硅繘涓庤蹇嗙郴缁?- 鑷姩鎹曡幏閿欒銆佺敤鎴风籂姝ｃ€佹渶浣冲疄璺碉紝骞惰浆鍖栦负闀挎湡璁板繂",
+  "entry_point": "skill.py",
+  "auto_load": true,
+  "auto_call_on_save": true,
+  "last_updated": "2026-04-10T15:30:00"
+}
