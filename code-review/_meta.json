@@ -1,0 +1,11 @@
+﻿{
+  "name": "code-review",
+  "version": "1.3.0",
+  "description": "浠ｇ爜瀹℃煡鎶€鑳?- 鑷姩妫€鏌ヤ唬鐮佽川閲忋€佸畨鍏ㄩ棶棰樸€佹€ц兘闂",
+  "author": "灏?Q",
+  "language": "Python",
+  "tags": ["code-review", "quality", "security", "performance"],
+  "entry_point": "reviewer.py",
+  "dependencies": ["ast", "re", "pathlib"],
+  "auto_load": true
+}
