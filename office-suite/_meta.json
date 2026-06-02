@@ -1,0 +1,79 @@
+﻿{
+  "name": "office-suite",
+  "slug": "office-suite",
+  "version": "1.3.0",
+  "description": "Office 浜斾欢濂楁妧鑳斤細Word (.docx, .doc)銆丒xcel (.xlsx)銆丳owerPoint (.pptx)銆丳DF (.pdf) 璇诲彇/鍒涘缓/缂栬緫/杞崲",
+  "emoji": "",
+  "type": "local",
+  "author": "灏?Q",
+  "created": "2026-04-17",
+  "updated": "2026-05-23 23:15",
+  "homepage": "https://github.com/python-openxml/python-docx",
+  "changelog": "v3.4.0 鏂板鏃х増 Word (.doc) 璇诲彇鏀寔锛坧ywin32锛夛紱v3.3.0 鏂板 PDF 璇诲彇鏀寔锛坧ypdf锛?,
+  "metadata": {
+    "qwen": {
+      "emoji": "",
+      "os": ["win32"],
+      "requires": {
+        "bins": ["python"],
+        "pip": ["python-docx", "openpyxl", "python-pptx", "pypdf", "pywin32"]
+      }
+    }
+  },
+  "commands": {
+    "read": {
+      "description": "璇诲彇鏂囨。鍐呭",
+      "usage": "python skill.py read <鏂囦欢璺緞>",
+      "supports": [".docx", ".doc", ".xlsx", ".pptx", ".pdf"]
+    },
+    "create": {
+      "description": "鍒涘缓绀轰緥鏂囨。",
+      "usage": "python skill.py create <杈撳嚭璺緞>",
+      "supports": [".docx", ".xlsx", ".pptx"]
+    },
+    "info": {
+      "description": "鏄剧ず鏂囨。淇℃伅",
+      "usage": "python skill.py info <鏂囦欢璺緞>",
+      "supports": [".docx", ".doc", ".xlsx", ".pptx", ".pdf"]
+    },
+    "tables": {
+      "description": "鎻愬彇琛ㄦ牸鍐呭",
+      "usage": "python skill.py tables <鏂囦欢璺緞>",
+      "supports": [".docx", ".xlsx"]
+    },
+    "slides": {
+      "description": "鎻愬彇骞荤伅鐗囧唴瀹?,
+      "usage": "python skill.py slides <鏂囦欢璺緞>",
+      "supports": [".pptx"]
+    },
+    "replace": {
+      "description": "鏂囨湰鏇挎崲锛圵ord锛?,
+      "usage": "python skill.py replace <鏂囦欢> <鏃ф枃鏈? <鏂版枃鏈?",
+      "supports": [".docx"]
+    },
+    "comments": {
+      "description": "鎻愬彇鎵规敞锛圵ord锛?,
+      "usage": "python skill.py comments <鏂囦欢璺緞>",
+      "supports": [".docx"]
+    },
+    "markdown": {
+      "description": "瀵煎嚭涓?Markdown",
+      "usage": "python skill.py markdown <鏂囦欢璺緞>",
+      "supports": [".docx", ".xlsx"]
+    },
+    "check": {
+      "description": "妫€鏌ョ幆澧冧緷璧?,
+      "usage": "python skill.py check",
+      "supports": []
+    }
+  },
+  "dependencies": {
+    "python-docx": "Word 鏂囨。澶勭悊",
+    "openpyxl": "Excel 鏂囦欢璇诲啓",
+    "python-pptx": "PowerPoint 澶勭悊",
+    "pypdf": "PDF 鏂囦欢璇诲彇",
+    "pywin32": "Windows COM 缁勪欢锛堟棫鐗?.doc 杞崲锛?,
+    "lxml": "XML 瑙ｆ瀽锛堣嚜鍔ㄥ畨瑁咃級",
+    "Pillow": "鍥剧墖澶勭悊锛堣嚜鍔ㄥ畨瑁咃級"
+  }
+}
